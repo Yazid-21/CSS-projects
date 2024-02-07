@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(buku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px 8px;;
+}
+
+.logo {
+  text-transform: capitalize;
+  font-size: 25px;
+  padding-left: 1px;
+  font-family: "Pacifico", cursive;
+  color: #556b2f;
+}
+span {
+  color: rgb(245, 245, 245);
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  width: 40%;
+  align-items: center;
+}
+
+nav .hamburger i {
+  color: black
+  transition: 04s;
+  cursor: pointer;
+}
+nav .hamburger i:hover {
+  transform: scale(1.2);
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  transition: 0.4s;
+  color: rgb(145, 135, 135);
+}
+
+.btn {
+  background-color: rgb(12, 12, 12);
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: bold;
+  border: 10px 25px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.hamburger {
+  font-size: 28px;
+  display: none;
+  align-items: center;
+  color: white;
+}
+
+
+.yazid h2 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 30px;
+  font-weight: 500px;
+  font-family: "Pacifico", cursive;
+}
+
+.yazid h3 {
+  display: none;
+  font-family: "Pacifico", cursive;
+  font-weight: 500px;
+  font-size: 30px;
+}
+
+.yazid form input {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background: transparent;
+}
+
+
+.yazid form input:first-child {
+  display: inline-block;
+  padding: 15px 125px 14px 14px;
+  border: 3px solid rgb(0, 0, 0);
+  outline: none;
+  border-radius: 25px;
+}
+
+.yazid form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 0px 0px 7px black;
+  left: 760px;
+  top: 260px;
+}
+
+
+.about {
+  width: 85%;
+  padding: 100px;
+  background-color: #111111;
+}
+.about img {
+  height: auto;
+  width: 400px;
+  left: 5%;
+}
+
+.about-tex {
+  width: 450px;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-tex h2 {
+  color: white;
+  font-size: 70px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.about-tex h5 {
+  color: white;
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-tex h5 span {
+  color: white;
+}
+
+.about-tex p {
+  color: white;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 13px 30px;
+  transition: 0.4s;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+
+.isian {
+  background: #111111;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.judul h3 {
+  color: skyblue;
+  font-size: 30px;
+  width: 500px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px auto;
+}
+
+.judul span {
+  color: crimson;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 200px;
+}
+
+
+.card {
+  height: 300px;
+  width: 300px;
+  padding: 15px 20px;
+  background: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin: 15px;
+  text-align: center;
+}
+
+ .cards {
+  height: 300px;
+  width: 300px;
+  padding: 15px 20px; 
+  background: white;
+  border-radius: 30px;
+  margin: 15px;
+  text-align: center;  
+}
+
+.cards .card-text {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.card-text {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.teks {
+  color: coral;
+  word-spacing: 2px;
+  font-size: 15px;
+  line-height: 55px;
+  margin-bottom: 25px;
+}
+
+.card .button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 9px 20px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+
+.Copyright {
+  background: black;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: capitalize;
+  height: 25px;
+  font-size: 15px;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .yazid form {
+    display: none;
+  }
+
+  .about {
+    width: 150%;
+  }
+
+  .about img {
+    height: 280px;
+    width: 280x;
+    padding-left: 10px;
+  }
+
+  .about-tex {
+    width: 200px;
+    padding-right: 30%;
+  }
+
+  .isian {
+    width: 175%;
+  }
+
+  .Copyright  {
+    width: 200%;
+  }
+
+  .Copyright p {
+    width: 200%;
+  }
+
+}
+
+/* HandPhone */
+
+@media screen and (max-width: 568px) {
+  nav {
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  nav ul.hidden {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+  }
+
+  .yazid form {
+    display: none;
+  }
+
+  .about {
+    width: 150%;
+  }
+
+  .about img {
+    height: 200px;
+    width: 150x;
+    padding-right: 10%;
+  }
+
+  .about-tex {
+    width: 250px;
+    padding-right: 2%;
+  }
+
+  .isian {
+    width: 200%;
+  }
+
+  .card-body p {
+    font-size: 10px;
+  }
+
+  .Copyright  {
+    width: 200%;
+  }
+
+  .Copyright p {
+    width: 200%;
+  }
+
+}
+
