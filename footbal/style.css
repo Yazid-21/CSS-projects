@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(images/bola1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+span {
+  color: crimson;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: transparent;
+  transition: 0.4s;
+}
+
+.button {
+  background-color: crimson;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 13px 30px;
+  transition: 0.4s;
+  padding-top: 10px;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid crimson;
+  cursor: pointer;
+}
+
+.bungkus {
+  background: #111111;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h2 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  width: 1130px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.card {
+  height: 300px;
+  width: 280px;
+  padding: 15px 25px;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.card1 {
+  height: 300px;
+  width: 280px;
+  padding: 15px 25px;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.card2 {
+  height: 300px;
+  width: 280px;
+  padding: 15px 25px;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.card3 {
+  height: 300px;
+  width: 280px;
+  padding: 15px 25px;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.card {
+  height: 300px;
+  width: 280px;
+  padding: 15px 25px;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.card1 .europe {
+  color: red;
+}
+
+.card2 .America {
+  color: skyblue;
+}
+
+.card .Asia {
+  color: crimson;
+}
+
+.card3 h2 {
+  color: white;
+}
+
+.card h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.teks p {
+  color: white;
+  word-spacing: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+.teks .button {
+  background-color: crimson;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 13px 30px;
+  transition: 0.4s;
+  padding-top: 10px;
+}
+
+.teks .button:hover {
+  background-color: transparent;
+  border: 2px solid crimson;
+  cursor: pointer;
+}
+
+.ronaldo {
+  background-image: url(images/Ronaldo\ picture\ with\ cup.jpg);
+  width: 300px;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+}
+
+.messi {
+  background-image: url(images/Messi\ Worldcup\ 2022🏆.jpg);
+  width: 300px;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+}
+
+.salah {
+  background-image: url(images/Mo\ Salah\ _\ Liverpool\ _\ Champions\ League\ HD\ Wallpaper.jpg);
+  width: 300px;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+}
+
+.son {
+  background-image: url(images/son.jpg);
+  width: 250px;
+  height: 275px;
+  background-size: cover;
+  background-position: center;
+}
+
+.pul {
+  color: black;
+}
+
+.tex {
+  color: white;
+  word-spacing: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  opacity: 0;
+}
