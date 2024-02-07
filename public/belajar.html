@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" id="hitam" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="test.css" />
+    <script>
+      tailwind.config = {
+        darkMode: `class`,
+      };
+    </script>
+    <title>learning tailwind</title>
+    <style type="text/tailwindcss">
+      #toggle:checked ~ label div.toggle-circle {
+        @apply translate-x-3;
+      }
+    </style>
+  </head>
+  <body class="dark:bg-slate-700 dark:text-slate-200">
+    <div class="h-screen w-screen bg-no-repeat bg-cover">
+      <nav
+        class="h-20 items-center justify-between flex capitalize text-white font-semibold pt-12 pl-8 pr-8"
+      >
+        <div class="pl-3 text-xl text-slate-700 dark:text-slate-200">
+          Hwoying
+        </div>
+        <ul class="text-slate-800 dark:text-slate-300">
+          <li class="inline-block pl-4 pr-4 text-xl"><a href="#">more</a></li>
+          <li class="inline-block pl-4 pr-4 text-xl"><a href="#">about</a></li>
+          <li class="inline-block pl-4 pr-4 text-xl"><a href="#">learn</a></li>
+        </ul>
+
+        <div class="flex justify-center">
+          <span class="text-sm text-slate-500 mr-2">Light</span>
+          <input type="checkbox" id="toggle" class="hidden" />
+          <label for="toggle"></label>
+          <div
+            class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer"
+          >
+            <div
+              class="w-4 h-4 rounded-full bg-white circle toggle-circle"
+            ></div>
+          </div>
+          <span class="text-sm text-slate-500 ml-2">Dark</span>
+        </div>
+
+        <button
+          class="bg-slate-500 text-white text-xl decoration-0 px-7 py-2 rounded-full mr-4 hover:bg-slate-700"
+        >
+          Click For More
+        </button>
+      </nav>
+    </div>
+
+    <button
+      class="mt-28 bg-sky-400 border-sky-400 rounded-full px-5 py-2 mx-auto block font-semibold text-white hover:bg-sky-500 active:bg-sky-600 dark:bg-white dark:text-black dark:hover:bg-slate-400"
+    >
+      Save
+    </button>
+
+    <div
+      class="max-w-lg my-10 border border-sky-400 rounded-xl mx-auto pd-5 shadow-md font-inter hover:bg-blue-300 group dark:hover:bg-slate-400"
+    >
+      <h5
+        class="font-bold text-lg mb-3 text-slate-500 group-hover:text-slate-500 ml-3 selection:text-red-500 first-letter:text-3xl dark:text-slate-500 dark:group-hover:text-slate-300"
+      >
+        Leo Messi
+      </h5>
+      <p
+        class="text-black group-hover:text-slate-500 selection:text-slate-900 ml-3 dark:text-slate-500 dark:hover:text-slate-200"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam
+        unde veritatis cumque quae eum praesentium sapiente totam dolorum quos
+        beatae accusamus fugit magnam earum exercitationem repellat, sunt
+        doloremque. Velit suscipit voluptatum asperiores iusto ducimus.
+      </p>
+    </div>
+
+    <div
+      class="max-w-lg border border-black rounded-xl mx-auto shadow-md font-serif p-5"
+    >
+      <form action="">
+        <label for="email">
+          <span class="font-bold mb-1 text-slate-700 dark:text-slate-100"
+            >Email</span
+          >
+          <input
+            type="email"
+            id="email"
+            placeholder="Input your Email"
+            class="px-3 py-2 border border-sky-400 shadow rounded w-full block text-sm placeholder:text-black invalid:bg-red-600 peer"
+          />
+          <p
+            class="text-sm m-1 text-pink-600 invisible peer-invalid:visible dark:text-slate-300"
+          >
+            Email Invalid
+          </p>
+        </label>
+      </form>
+    </div>
+
+    <div class="mt-96"></div>
+    <script>
+      const rubah = document.querySelector("#toggle");
+      const dark = document.getElementById("#hitam");
+
+      rubah.addEventListener('click' => {
+        rubah.Checked ? dark.classList.add('dark') : dark.classList.remove('dark')
+      })
+    </script>
+  </body>
+</html>
